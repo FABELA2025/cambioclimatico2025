@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio Climático</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #003366;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007B5E;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #CCE5FF;
+        }
+        .hero {
+            background-image: url('https://www.atmosfera.unam.mx/wp-content/uploads/2024/10/241028-aca4-des-f1-Cambio-climatico.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #FFFFFF;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section:nth-child(odd) {
+            background-color: #E6F2FF;
+        }
+        .btn {
+            background-color: #007B5E;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #005F46;
+        }
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .benefits div {
+            background-color: #CCE5FF;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+            margin: 10px;
+        }
+        footer {
+            background-color: #007B5E;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #CCE5FF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#quienes-somos">¿Quiénes somos?</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Conciencia sobre el Cambio Climático</h1>
+        <p>Un llamado a proteger nuestro planeta para las generaciones futuras.</p>
+        <button class="btn">Aprender más</button>
+    </section>
+
+    <section class="section" id="objetivo">
+        <h2>Objetivo</h2>
+        <p>Nuestro objetivo es educar y movilizar a las comunidades para enfrentar el cambio climático mediante acciones concretas y responsables.</p>
+    </section>
+
+    <section class="section" id="servicios">
+        <h2>Soluciones para el Cambio Climático</h2>
+        <div class="benefits">
+            <div>
+                <h3>Educación Ambiental</h3>
+                <p>Impartimos talleres para informar sobre prácticas sostenibles.</p>
+            </div>
+            <div>
+                <h3>Reducción de Huella de Carbono</h3>
+                <p>Ayudamos a individuos y empresas a reducir su impacto ambiental.</p>
+            </div>
+            <div>
+                <h3>Promoción de Energías Renovables</h3>
+                <p>Apoyamos proyectos de energía limpia como la solar y eólica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos un equipo comprometido con la sostenibilidad, trabajando para crear un impacto positivo en el medio ambiente a través de soluciones innovadoras y prácticas.</p>
+    </section>
+
+    <footer>
+        <p>Contacto: info@cambioclimatico.com | Teléfono: +52 55 9876 5432</p>
+        <a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a>
+    </footer>
+</body>
+</html>
